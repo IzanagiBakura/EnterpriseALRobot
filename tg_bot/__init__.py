@@ -124,6 +124,7 @@ MESSAGE_DUMP = KInit.MESSAGE_DUMP
 GBAN_LOGS = KInit.GBAN_LOGS
 NO_LOAD = KInit.NO_LOAD
 SUDO_USERS = [OWNER_ID] + get_user_list("sudos")
+SHADOW_HOKAGE = [OWNER_ID] + get_user_list("sasuke")
 DEV_USERS = [OWNER_ID] + get_user_list("devs")
 SUPPORT_USERS = get_user_list("supports")
 SARDEGNA_USERS = get_user_list("sardegnas")
